@@ -1,0 +1,130 @@
+/* COULEURS MATCHA BLESSING */
+:root {
+  --green: #6FAF6A;
+  --green-dark: #68ad61;
+  --green-light: #E8F5E7;
+  --white: #ffffff;
+}
+
+/* GLOBAL */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: var(--green-light);
+}
+
+/* HEADER */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background: var(--white);
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo img {
+  width: 50px;
+  height: 50px;
+}
+
+.logo h1 {
+  font-size: 18px;
+  margin: 0;
+  color: var(--green-dark);
+}
+
+.logo p {
+  margin: 0;
+  font-size: 12px;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: var(--green-dark);
+  font-weight: bold;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: var(--green);
+  color: white;
+}
+
+.hero button {
+  padding: 10px 20px;
+  border: none;
+  background: white;
+  color: var(--green-dark);
+  font-weight: bold;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+/* SECTIONS */
+.section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.green {
+  background: var(--green-light);
+}
+
+/* CARD */
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  max-width: 400px;
+  margin: auto;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.price {
+  color: var(--green-dark);
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: var(--green);
+  color: white;
+  text-decoration: none;
+  border-radius: 20px;
+}
+
+/* GRID */
+.grid {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.box {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 150px;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: var(--green-dark);
+  color: white;
+}
